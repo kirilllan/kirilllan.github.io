@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>_</title>
+  <title>&shy;</title>
   <style>
   * {box-sizing: border-box;}
   body {font-family: 'Courier New', sans-serif;background-color: NavajoWhite; color: Peru;
@@ -23,7 +23,7 @@
 </head>
 <body>
   <main>
-    <form class="contac-form" action="contactform.php" method="POST">
+    <form class="contact-form" action="contactform.php" method="POST">
     <p>SEND E-MAIL</p>
       <input type="text" name="name" id="name" placeholder="your name" autofocus>
       <input type="email" name="mail" id="mail" placeholder="your email">
