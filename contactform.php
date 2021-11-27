@@ -7,7 +7,7 @@
     $message = $_POST['message'];
   }
   
-  $mailTo = "s2100138@edu.bc.fi"; //chng
+  $mailTo = "your mail"; //chng
   $headers = "From: $mailFrom";
   $txt = 'You have a new email from ' . $name . '.\n\n' . $message;
 
