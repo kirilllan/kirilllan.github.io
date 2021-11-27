@@ -55,6 +55,10 @@
         overflow: hidden;
         background-color: white !important; /* thinking if this will overwrite browser themes?  */
       }
+      @keyframes anim {
+        from {width: 175vw; height: 800vh;}
+        to {width: 90vw; height: 200vh;}
+      }
       .black-block {
         background-color: black;
         border-radius: 50%;
@@ -64,6 +68,8 @@
         right: -500px;
         top: -500px;
         z-index: -1;
+        animation-name: anim;
+        animation-duration: 5s;
       }
       .inpage-links {
         display: flex;
