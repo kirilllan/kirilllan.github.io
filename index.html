@@ -66,6 +66,7 @@
         position: absolute;
         right: -500px;
         top: -500px;
+        z-index: -1;
       }
       .inpage-links {
         display: flex;
@@ -74,12 +75,22 @@
         text-align: center;
         min-height: 100vh;
       }
+      .gradient-text {
+        color: gainsboro;
+      }
+      @supports (background-clip: text) {
+        .gradient-text {
+          background-image: linear-gradient(60deg, black, white);
+          background-clip: text;
+          color: transparent;
+        }
+      }
     </style>
   </head>
   <body>
     <div class="inpage-links">
       <a href="projects.html">
-        <h1 style="text-decoration:underline; font-size: 10vw; margin: auto 0;">Projects</h1>
+        <h1 style="text-decoration:underline; font-size: 10vw; margin: auto 0;" class="gradient-text">Projects</h1>
       </a>
     </div>
     <div class="white-block"></div>
