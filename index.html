@@ -53,6 +53,7 @@
     <style>
       body {
         overflow: hidden;
+        background-color: white !important; /* thinking if this will overwrite browser themes?  */
       }
       .white-block {
 
@@ -66,10 +67,21 @@
         right: -500px;
         top: -500px;
       }
+      .inpage-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+      }
     </style>
   </head>
   <body>
-    <a href="projects.html"><h1 style="text-decoration:underline;">Projects</h1></a>
+    <div class="inpage-links">
+      <a href="projects.html">
+        <h1 style="text-decoration:underline; font-size: 10vw; margin: auto 0;">Projects</h1>
+      </a>
+    </div>
     <div class="white-block"></div>
     <div class="black-block">ffff</div>
     <!-- <main>
