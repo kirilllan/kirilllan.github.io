@@ -8,12 +8,24 @@
   <style>
   body {background-color:cornsilk; color:dimgray;}
   .project {height: 400px;}
-  img {float: left; margin-right: 40px;}
+  img {
+    float: left;
+    margin-right: 40px;
+    max-width: 100%;
+    height: auto;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    max-width: 100%;
+    height: auto;
+  }
   .project2 img {width: 600px; height: 300px; object-fit: contain;}
   /* .repo-container-1 {border: 5px dotted lightslategray;}
   .repo-container-2 {border: 5px dotted lightgray;}
   .repo-container-3 {border: 5px dotted lightslategray;} */
-  .repo {
+  .repo {    
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
     margin: 5px 0 5px 0;
     border: 10px solid;
     border-image-slice: 1;
@@ -42,7 +54,7 @@
 </div>
 
 <div class="repo repo-container-2">
-  <h1>Repo: REACT21K_react_sandbox</h1>
+  <h1>Repo: react_sandbox</h1>
   <div class="project project3">
     <img src="images/recipe_search_app.png" alt="recipe search app demo">
     <h2>React app, pulling data from API</h2>
@@ -67,7 +79,7 @@
 
 <div class="training-sites">
   <h1>Lumosity comparison:</h1>
-  <img src="images/lumosity_comparison.png" alt="percentage rating from training website" style="margin-bottom: 50px; max-width: 50%; height: auto;">
+  <img src="images/lumosity_comparison.png" alt="percentage rating from training website" style="margin-bottom: 50px;">
   <br> <br>
   <h1>Neuronation comparison:</h1>
   <img src="images/neuronation_comparison.PNG" alt="percentage rating from training website">
